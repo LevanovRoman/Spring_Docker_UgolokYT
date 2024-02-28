@@ -1,0 +1,10 @@
+services:
+  db_pg_15:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: sandbox_user
+      POSTGRES_PASSWORD: sandbox_password
+      POSTGRES_DB: sandbox
+    ports:
+      - 5432
+
